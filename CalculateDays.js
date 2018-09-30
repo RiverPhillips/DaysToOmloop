@@ -7,4 +7,4 @@ calculateDays = () => {
   return Math.round(Math.abs((currentDate.getTime() - omloopDate.getTime()) / (oneDayMs)) + 1);
 }
 
-document.getElementById('dayContainer').innerHTML = calculateDays()
+document.getElementById('dayContainer').innerHTML = String(calculateDays()).concat(" days until the road cycling season begins!");
