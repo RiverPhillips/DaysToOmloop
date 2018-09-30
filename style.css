@@ -1,8 +1,8 @@
-body, html {
-  height: 100%;
+html, body{
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100%;
 }
 
 body{
@@ -10,12 +10,19 @@ body{
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
   ),url("./images/BackgroundImage.jpg");
+  background-size: cover;
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
+
   font-family: 'Roboto', sans-serif;
   color: #fff;
-  opacity: 50%;
-  background-size: cover;
+}
+
+#text-wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #text{
